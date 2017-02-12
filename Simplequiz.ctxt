@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Simplequiz()
+comment1.params=
+comment1.target=java.lang.String\ getCurrentQuestion()
+comment1.text=\r\n\ Return\ the\ full\ specification\ for\ the\ current\ question.\r\n\ \r\n\ @return\ the\ full\ question\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCurrentAnswer()
+comment2.text=\r\n\ Return\ the\ answer\ to\ the\ current\ question\r\n\ \r\n\ @return\ the\ answer\r\n
+comment3.params=
+comment3.target=void\ resetQNum()
+comment4.params=answer
+comment4.target=boolean\ checkCurrentAnswer(java.lang.String)
+comment4.text=\r\n\ Returns\ true\ if\ the\ given\ answer\ is\ correct\ for\ the\ current\ question.\r\n\ \r\n\ @param\ answer\r\n\ \ \ \ \ \ \ \ \ \ \ \ the\ user's\ answer\r\n\ @return\ true\ if\ and\ only\ if\ the\ given\ answer\ is\ correct\r\n
+comment5.params=
+comment5.target=boolean\ hasNext()
+comment5.text=\r\n\ Returns\ true\ if\ this\ quiz\ has\ another\ question.\r\n\ \r\n\ @return\ true\ if\ and\ only\ if\ this\ quiz\ has\ another\ question\r\n
+comment6.params=
+comment6.target=void\ next()
+comment6.text=\r\n\ Advance\ to\ the\ next\ question.\r\n\ \r\n\ @throws\ Exception\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ if\ there\ are\ no\ more\ questions\r\n
+numComments=7

@@ -1,0 +1,128 @@
+/-- Every line is formated so that the program can read it correctly. 
+/-- Each line has a 'tag' accoated with it that comes in the form of the next two characters after the forward slash
+/-- These top lines have a tag that tells the program to ignore these lines (the -- tag)
+/-- Four types of questions can be created in this program; multiple choice, short answer, true/false, and fill-in-the-blank questions.
+/-- Nearly all answers are not case sensitive but must be spelled correctly
+/
+/-- *m tagged lines indicate multiple choice type questions. The space following the tag is filled by the prompt. 
+/-- 	They are followed by any number of lines of answers(no limit for answer choices)
+/-- 	the answer choices are tagged as either the correct answer(**) or the incorect answer(*!).
+/-- 	only one correct answer is allowed for each multiple choice question
+/-- 	all multiple choice questions/answer choices should not have any blank lines between each other
+/-- 	ANSWER FORMAT : Letter displayed next to the correct choice 
+/-- 	Note: Answers randomize
+/
+/-- *s tagged lines indicate short answer type questions. The tag is followed by the Question Prompt
+/-- 	The SINGULAR answer is tagged by **  
+/
+/-- *b tagged lines indicate fill-in-the-blank answer type questions. They work in the same manner as short answer(*s) questions do.
+/
+/-- *t tagged lines indicate true/false type questions. The tag is followed by the Question Prompt.
+/-- 	The SINGULAR answer is tagged by ** and can have either an be upper or lower case true/false answer
+/
+/-- ** tagged lines indicate the correct answer. Note: Must include ONLY one correct answer per each question
+/
+/-- !* tagged lines indicate the incorrect answer. Note: Can include any number of incorrect answers(within reason) 
+/-- 	must be only used with multiple choice type questions.
+/
+/-- Included below are examples of Question-Answer format. Feel free to experement with input.
+/
+/*m Which is NOT a primary color for light?
+/*! Red
+/*! Blue
+/** Orange
+/*! Green
+/
+/*m Which organelle in a cell is responsible for breaking down waste materials and cellular debris?
+/*! Mitochondria
+/** Lysosomes
+/*! Cellular Membrane
+/*! Golgi Apparatus
+/*! Nucleus
+/*! Ribosomes
+/
+/*s What is the element He?
+/** Helium
+/
+/*b 1,2,4,-,16,32 What number completes the series? 
+/** 8
+/
+/*t Texas is the largest state in the US?
+/** False
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
